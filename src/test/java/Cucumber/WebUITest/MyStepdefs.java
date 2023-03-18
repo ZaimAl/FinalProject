@@ -73,7 +73,8 @@ public class MyStepdefs extends BaseTest {
     }
 
     @And("user input username with {string}")
-    public void userInputUsernameWith(String username) {
+    public void userInputUsernameWith(String username) throws InterruptedException {
+        Thread.sleep(500);
         driver.findElement(By.id("login2")).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("loginusername")));
         driver.findElement(By.id("loginusername")).sendKeys(username);
