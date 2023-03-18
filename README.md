@@ -1,5 +1,3 @@
-# FinalProject
-
 # Project Description
 This is a web UI automation framework built with Selenium and an API testing framework built with Rest Assured to simplify and streamline the process of testing web applications. The framework includes a range of features, such as automated testing scripts, support for multiple browsers, and integration with popular test management tools."
 
