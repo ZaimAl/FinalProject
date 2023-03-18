@@ -14,8 +14,7 @@ If you find any bugs or have feature requests, please submit an issue or pull re
 
 ## Credits
 This project was built using the following resources: Selenium WebDriver, Java, Gradle, Rest Assured, and Cucumber. 
-Thanks to the web UI used: https://www.demoblaze.com/index.html
-and Thank to the API used: https://dummyapi.io/
+Thanks also to the web UI used: "https://www.demoblaze.com/index.html" and API used: "https://dummyapi.io/"
 
 ## Documentation
 For additional documentation, please see the "html:reports/cucumber.html" or "json:reports/cucumber.json" or see an environments "github-pages"
