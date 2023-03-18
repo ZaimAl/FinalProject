@@ -28,9 +28,10 @@ public class MyStepdefs extends BaseTest {
     }
 
     @And("user choose the item")
-    public void userChooseTheItem() {
+    public void userChooseTheItem() throws InterruptedException {
         List<WebElement> elementMonitor = driver.findElements(By.xpath("//*[@id=\"itemc\"]"));
         elementMonitor.get(2).click();
+        Thread.sleep(500);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"tbodyid\"]/div[1]/div/a")));
         driver.findElement(By.xpath("//*[@id=\"tbodyid\"]/div[1]/div/a")).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"tbodyid\"]/div[2]/div/a")));
@@ -50,7 +51,8 @@ public class MyStepdefs extends BaseTest {
     }
 
     @Then("user input the every information that needed")
-    public void userInputTheEveryInformationThatNeeded() {
+    public void userInputTheEveryInformationThatNeeded() throws InterruptedException {
+        Thread.sleep(500);
         driver.findElement(By.id("name")).sendKeys("UserTest123");
         driver.findElement(By.id("country")).sendKeys("Indonesia");
         driver.findElement(By.id("city")).sendKeys("jakarta");

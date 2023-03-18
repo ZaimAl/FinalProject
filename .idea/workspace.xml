@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94975e94-5622-45b7-94d6-0e54319c2f59" name="Changes" comment="ookay">
-      <change afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Cucumber/WebUITest/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Cucumber/WebUITest/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demoSellenium/build/classes/java/test/testWebUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demoSellenium/build/classes/java/test/testWebUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demoSellenium/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demoSellenium/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demoSellenium/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demoSellenium/build/reports/tests/test/packages/default-package.html" afterDir="false" />
@@ -83,7 +83,26 @@
       <recent name="D:\java\ProjectFinal\src\test\resources\GherkinTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CucumberTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: testWebUI">
+    <configuration name="Feature: testWebUI" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/GherkinTest/testWebUI.feature" />
+      <option name="GLUE" value="Cucumber.WebUITest" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="ProjectFinal.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: testWebUI" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Login Using registration username and password then logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/GherkinTest/testWebUI.feature" />
@@ -104,35 +123,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User GET api using tag from dummy API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User choose the item and purchase it without login first" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/GherkinTest/testAPI.feature" />
-      <option name="GLUE" value="Cucumber.APITest" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/GherkinTest/testWebUI.feature" />
+      <option name="GLUE" value="Cucumber.WebUITest" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="ProjectFinal.test" />
-      <option name="NAME_FILTER" value="^User GET api using tag from dummy API$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User GET api using tag from dummy API$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User GET api using tag from dummy API" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: User GET list from dummy API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/GherkinTest/testAPI.feature" />
-      <option name="GLUE" value="Cucumber.APITest" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="ProjectFinal.test" />
-      <option name="NAME_FILTER" value="^User GET list from dummy API$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User GET list from dummy API$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User GET list from dummy API" />
+      <option name="NAME_FILTER" value="^User choose the item and purchase it without login first$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User choose the item and purchase it without login first$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User choose the item and purchase it without login first" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -184,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: testWebUI" />
+        <item itemvalue="Cucumber Java.Scenario: User choose the item and purchase it without login first" />
         <item itemvalue="JUnit.CucumberTest" />
         <item itemvalue="Cucumber Java.Scenario: Login Using registration username and password then logout" />
         <item itemvalue="Gradle.CucumberTest" />
-        <item itemvalue="Cucumber Java.Scenario: User GET api using tag from dummy API" />
-        <item itemvalue="Cucumber Java.Scenario: User GET list from dummy API" />
       </list>
     </recent_temporary>
   </component>
