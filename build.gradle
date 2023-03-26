@@ -41,8 +41,8 @@ task cucumber() {
             main = "io.cucumber.core.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
             args = [
-                    '--plugin', 'html:reports/cucumber.html',
-                    '--plugin', 'json:reports/cucumber.json',
+                    '--plugin', 'html:reports/index.html',
+                    '--plugin', 'json:reports/index.json',
                     '--plugin', 'pretty',
                     '--glue', 'Cucumber',
                     '--tags', "${tags}",
