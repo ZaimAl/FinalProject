@@ -15,4 +15,4 @@ This project was built using the following resources: Selenium WebDriver, Java, 
 Thanks also to the web UI used: "https://www.demoblaze.com/index.html" and API used: "https://dummyapi.io/"
 
 ## Documentation
-For additional documentation, please see in the branch gh-pagess "html:index.html" or "cucumber.json"
+For additional documentation, please see in the branch gh-pagess "html:index.html" or "index.json"
